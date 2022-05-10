@@ -1,0 +1,413 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* efeito de rolagem mais suave no link dentro da pagina*/
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(./fonts/Alegreya/Alegreya-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Radio;
+    src: url(./fonts/Radio_Canada/RadioCanada-VariableFont_wdth\,wght.ttf);
+}
+
+
+@font-face {
+    font-family: Anton;
+    src: url(./fonts/Anton/Anton-Regular.ttf);
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Anton, helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+
+#cabecalho {
+    padding: 10px;
+    text-align: left;
+
+}
+
+
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    color: rgb(228, 15, 15);
+
+}
+
+.medias {
+    float: right;
+}
+
+.medias img {
+    width: 20px;
+    padding-left: 5px;
+}
+
+.logo {
+    background-color: rgb(214, 8, 8);
+}
+
+.logo img {
+    width: 200px;
+    padding: 20px;
+}
+
+
+.menu {
+
+    border-bottom: 2px solid black;
+    margin: auto;
+    width: 80%;
+    height: 65px;
+}
+
+
+ul {
+    line-height: 65px;
+    width: fit-content;
+    list-style: none;
+    margin: auto;
+}
+
+li {
+    float: left;
+    margin-left: 25px;
+    font-family: Anton, calibri, sans-serif;
+    font-size: 18px;
+
+}
+
+#contato {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    max-width: 80%;
+    height: fit-content;
+    text-align: left;
+
+    font-family: Alegreya, helvetica, sans-serif;
+}
+
+
+.unidades {
+    margin: auto;
+    margin-bottom: 80px;
+    width: fit-content;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+
+}
+
+.centro,
+.altoXV {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.centro img,
+.altoXV img {
+    border-top: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+.centro img {
+    margin-right: 60px;
+}
+
+.box {
+    display: flex;
+    margin-bottom: 60px;
+    height: 100px;
+}
+
+.horario {
+
+    width: fit-content;
+    display: inline-block;
+    margin-bottom: 80px;
+
+}
+
+.redes {
+    display: inline-block;
+    width: fit-content;
+    margin-left: 155px;
+    height: 100px;
+
+}
+
+.redes img {
+    width: 35px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.horario p {
+    margin-top: 20px;
+
+}
+
+.formulario {
+    width: 50%;
+    margin-top: 20px;
+}
+
+input {
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(209, 203, 203);
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: Alegreya, helvetica, sans-serif;
+}
+
+input[type="submit"] {
+    width: 100px;
+    background-color: rgb(209, 203, 203);
+    font-family: Anton, calibri, sans-serif;
+
+
+}
+
+textarea {
+    font-family: Alegreya, helvetica, sans-serif;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-color: black;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    #cabecalho {
+        padding: 7px;
+
+    }
+
+    #cabecalho h4 {
+        font-size: 15px;
+    }
+
+    .medias img {
+        width: 18px;
+        padding-left: 4px;
+    }
+
+    .logo img {
+        width: 150px;
+        padding: 15px;
+    }
+
+    .menu {
+        height: 45px;
+    }
+
+
+    ul {
+        line-height: 45px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+
+    #contato {
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #contato h2 {
+        font-size: 20px;
+    }
+
+
+    .unidades {
+        margin-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .box {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    #cabecalho {
+        padding: 4px;
+
+    }
+
+    #cabecalho h4 {
+        font-size: 11px;
+    }
+
+    .medias img {
+        width: 15px;
+        padding-left: 0px;
+    }
+
+    
+    .logo img {
+        width: 75px;
+        padding: 7px;
+    }
+    
+    
+    .menu {
+    
+        border-bottom: 2px solid black;
+        margin: 0;
+        width: 100% ;
+        height: 40px;
+    }
+    
+    
+    ul {
+        line-height: 40px;
+    }
+    
+    li {
+        
+        margin-left: 10px;
+        font-size: 15px;
+    
+    }
+
+    
+    #contato {
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        text-align: center;
+    }
+
+    #contato h2 {
+        font-size: 18px;
+    }
+
+
+    .unidades {
+        margin-bottom: 40px;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    .unidades h4 {
+        font-size: 14px;
+    }
+
+    .unidades img {
+        width: 180px
+    }
+
+    .centro img {
+        margin-right: 0px;
+    }
+
+    .box {
+        width: fit-content;
+        height: 190px;
+        font-size: 14px;
+        display: inline-block;
+        
+    }
+
+
+    .horario {
+        margin: auto;
+        width: fit-content;
+        display: block;
+        margin-bottom: 40px;
+    
+    }
+    
+    .redes {
+        display: block;
+        width: fit-content;
+        margin: auto;
+        height: 80px;
+
+    
+    }
+
+    .redes img {
+        width: 30px;
+    }
+
+    .formulario {
+        margin: auto;
+        padding-top: 20px;
+        width: fit-content;
+    
+    }
+    input {
+        font-size: 14px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    
+
+    textarea {
+    
+        width: 90%;
+        min-width: 0px;
+        min-height: 0px;
+        height: 100px;
+ 
+    }
+    
+}

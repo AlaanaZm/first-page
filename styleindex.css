@@ -1,0 +1,416 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* efeito de rolagem mais suave no link dentro da pagina*/
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(./fonts/Alegreya/Alegreya-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Radio;
+    src: url(./fonts/Radio_Canada/RadioCanada-VariableFont_wdth\,wght.ttf);
+}
+
+
+@font-face {
+    font-family: Anton;
+    src: url(./fonts/Anton/Anton-Regular.ttf);
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Anton, helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+#cabecalho {
+    padding: 10px;
+    text-align: left;
+
+}
+
+
+
+
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    color: rgb(228, 15, 15);
+
+}
+
+.medias {
+    float: right;
+}
+
+.medias img {
+    width: 20px;
+    padding-left: 5px;
+}
+
+.logo {
+    background-color: rgb(214, 8, 8);
+}
+
+.logo img {
+    width: 200px;
+    padding: 20px;
+}
+
+
+.menu {
+
+    border-bottom: 2px solid black;
+    margin: auto;
+    width: 80%;
+    height: 65px;
+}
+
+
+ul {
+    line-height: 65px;
+    width: fit-content;
+    list-style: none;
+    margin: auto;
+}
+
+li {
+    float: left;
+    margin-left: 25px;
+    font-family: Anton, calibri, sans-serif;
+    font-size: 18px;
+
+}
+
+#index {
+    width: 100%;
+}
+
+
+#sobre {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    max-width: 900px;
+    height: fit-content;
+    display: flex;
+
+}
+
+
+.sobre2 {
+    width: 580px;
+}
+
+.sobre1 img {
+    width: 320px;
+}
+
+.textoSobre h2 {
+    margin-bottom: 25px;
+}
+
+
+.textoSobre {
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: justify;
+    font-family: Alegreya, helvetica, sans-serif;
+    font-size: 16px;
+
+
+}
+
+
+.academia {
+    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgb(194, 192, 189);
+}
+
+.texto_academia {
+    font-family: Alegreya, helvetica, sans-serif;
+}
+
+.texto_academia h2 {
+    padding-bottom: 40px;
+}
+
+.texto_academia h3 {
+    padding-top: 60px;
+}
+
+.texto_academia {
+    margin-bottom: 20px;
+}
+
+.prof1,
+.prof2 {
+    display: inline-block;
+    margin: 40px;
+    font-family: Alegreya, helvetica, sans-serif;
+
+}
+
+.prof1 h3, .prof2 h3 {
+    padding-top: 25px;
+}
+
+footer {
+    height: 100px;
+    color: aliceblue;
+    background-color: rgb(214, 8, 8);
+}
+
+footer img {
+    height: 100px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #cabecalho {
+        padding: 7px;
+
+    }
+
+    #cabecalho h4 {
+        font-size: 15px;
+    }
+
+    .medias img {
+        width: 18px;
+        padding-left: 4px;
+    }
+
+    .logo img {
+        width: 150px;
+        padding: 15px;
+    }
+
+    .menu {
+        height: 45px;
+    }
+
+
+    ul {
+        line-height: 45px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+
+    #sobre {
+        max-width: 600px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sobre1 img {
+        width: 300px;
+    }
+
+    .sobre2 {
+        width: 480px;
+    }
+
+    .textoSobre h2 {
+        margin-bottom: 22px;
+    }
+
+    .academia {
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .texto_academia h2 {
+        padding-bottom: 25px;
+    }
+
+    .texto_academia h3 {
+        padding-top: 45px;
+    }
+
+    .prof1 img,
+    .prof2 img {
+        width: 250px;
+    }
+
+    .prof1,
+    .prof2 {
+        margin: 25px;
+    }
+
+    .prof1 h3, .prof2 h3 {
+        padding-top: 18px;
+    }
+
+    footer {
+        
+        height: 100px;
+
+    }
+    
+    footer img {
+        height: 100px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    #cabecalho {
+        padding: 4px;
+
+    }
+
+    #cabecalho h4 {
+        font-size: 11px;
+    }
+
+    .medias img {
+        width: 15px;
+        padding-left: 0px;
+    }
+
+    
+    .logo img {
+        width: 75px;
+        padding: 7px;
+    }
+    
+    
+    .menu {
+    
+        border-bottom: 2px solid black;
+        margin: 0;
+        width: 100% ;
+        height: 40px;
+    }
+    
+    
+    ul {
+        line-height: 40px;
+    }
+    
+    li {
+        
+        margin-left: 10px;
+        font-size: 15px;
+    
+    }
+
+
+
+    #sobre {
+        max-width: 400px;
+        padding-top: 0px;
+        padding-bottom: 8px;
+        display: inline-block;
+    }
+
+
+    .sobre1 img {
+        width: 200px;
+    }
+
+    .sobre2 {
+        width: fit-content;
+        margin: auto;
+    }
+
+    
+.textoSobre {
+    margin-top: 10px;
+    margin: 20px;
+    font-size: 14px;
+
+}
+
+.textoSobre h2 {
+    margin-bottom: 17px;
+}
+
+    .academia {
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+
+    }
+
+    .texto_academia h2 {
+        padding-bottom: 20px;
+     
+    }
+
+    .texto_academia h3 {
+        padding-top: 40px;
+    }
+
+    .texto_academia {
+        font-size: 14px;
+    }
+
+    .prof1 img,
+    .prof2 img {
+        width: 180px;
+    }
+
+    .prof1,
+    .prof2 {
+        margin: 18px;
+    }
+
+    .prof1 h3, .prof2 h3 {
+        padding-top: 15px;
+    }
+
+    footer {
+        
+        height: 80px;
+    
+    }
+    
+    footer img {
+        height: 80px;
+    }
+
+}
